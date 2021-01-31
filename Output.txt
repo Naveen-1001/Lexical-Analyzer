@@ -1,0 +1,227 @@
+
+
+
+
+
+int  -->Keyword
+fast_power  -->Identifier
+(  -->Special Symbol
+int  -->Keyword
+a  -->Identifier
+,  -->Operator
+int  -->Keyword
+b  -->Identifier
+,  -->Operator
+int  -->Keyword
+m  -->Identifier
+)  -->Special Symbol
+
+{  -->Special Symbol
+
+if  -->Keyword
+(  -->Special Symbol
+b  -->Identifier
+==  -->Operator
+0  -->Constant
+)  -->Special Symbol
+return  -->Keyword
+1  -->Constant
+;  -->Special Symbol
+
+if  -->Keyword
+(  -->Special Symbol
+b  -->Identifier
+==  -->Operator
+1  -->Constant
+)  -->Special Symbol
+return  -->Keyword
+a  -->Identifier
+;  -->Special Symbol
+
+int  -->Keyword
+temp  -->Identifier
+=  -->Operator
+fast_power  -->Identifier
+(  -->Special Symbol
+a  -->Identifier
+,  -->Operator
+b  -->Identifier
+/  -->Operator
+2  -->Constant
+,  -->Operator
+m  -->Identifier
+)  -->Special Symbol
+;  -->Special Symbol
+
+if  -->Keyword
+(  -->Special Symbol
+b  -->Identifier
+%  -->Operator
+2  -->Constant
+==  -->Operator
+0  -->Constant
+)  -->Special Symbol
+return  -->Keyword
+(  -->Special Symbol
+temp  -->Identifier
+*  -->Operator
+temp  -->Identifier
+)  -->Special Symbol
+%  -->Operator
+m  -->Identifier
+;  -->Special Symbol
+
+return  -->Keyword
+(  -->Special Symbol
+(  -->Special Symbol
+temp  -->Identifier
+*  -->Operator
+temp  -->Identifier
+)  -->Special Symbol
+%  -->Operator
+m  -->Identifier
+*  -->Operator
+a  -->Identifier
+)  -->Special Symbol
+%  -->Operator
+m  -->Identifier
+;  -->Special Symbol
+
+}  -->Special Symbol
+
+
+
+
+int  -->Keyword
+main  -->Identifier
+()  -->Operator
+
+{  -->Special Symbol
+
+int  -->Keyword
+a  -->Identifier
+=  -->Operator
+20  -->Constant
+,  -->Operator
+b  -->Identifier
+=  -->Operator
+10  -->Constant
+;  -->Special Symbol
+
+int  -->Keyword
+x  -->Identifier
+=  -->Operator
+0x762868  -->Constant
+;  -->Special Symbol
+
+int  -->Keyword
+y  -->Identifier
+=  -->Operator
+0762  -->Constant
+;  -->Special Symbol
+
+int  -->Keyword
+z  -->Identifier
+=  -->Operator
+0X2313  -->Constant
+;  -->Special Symbol
+
+float  -->Keyword
+c  -->Identifier
+=  -->Operator
+123.4E-10  -->Constant
+;  -->Special Symbol
+
+a  -->Identifier
+=  -->Operator
+a  -->Identifier
++  -->Operator
+b  -->Identifier
+;  -->Special Symbol
+
+a  -->Identifier
++=  -->Operator
+b  -->Identifier
+;  -->Special Symbol
+
+a  -->Identifier
+^=  -->Operator
+20  -->Constant
+;  -->Special Symbol
+
+b  -->Identifier
+>>  -->Operator
+2  -->Constant
+;  -->Special Symbol
+
+a  -->Identifier
+=  -->Operator
+a  -->Identifier
+/  -->Operator
+b  -->Identifier
+;  -->Special Symbol
+
+a  -->Identifier
+=  -->Operator
+a  -->Identifier
+%  -->Operator
+10  -->Constant
+;  -->Special Symbol
+
+if  -->Keyword
+(  -->Special Symbol
+a  -->Identifier
+==  -->Operator
+b  -->Identifier
+)  -->Special Symbol
+printf  -->Identifier
+(  -->Special Symbol
+"%d\n"  -->String Constant
+,  -->Operator
+a  -->Identifier
+)  -->Special Symbol
+;  -->Special Symbol
+
+else  -->Keyword
+printf  -->Identifier
+(  -->Special Symbol
+"%d"  -->String Constant
+,  -->Operator
+b  -->Identifier
+)  -->Special Symbol
+;  -->Special Symbol
+
+int  -->Keyword
+hehdio1_3nnjkn  -->Identifier
+;  -->Special Symbol
+
+char  -->Keyword
+d  -->Identifier
+=  -->Operator
+'d'  -->Constant
+,  -->Operator
+c  -->Identifier
+=  -->Operator
+'c'  -->Constant
+;  -->Special Symbol
+
+char  -->Keyword
+newline  -->Identifier
+=  -->Operator
+'\n'  -->Constant
+;  -->Special Symbol
+
+char  -->Keyword
+s  -->Identifier
+[  -->Special Symbol
+20  -->Constant
+]  -->Special Symbol
+=  -->Operator
+"String"  -->String Constant
+;  -->Special Symbol
+
+return  -->Keyword
+0  -->Constant
+;  -->Special Symbol
+
+}  -->Special Symbol
